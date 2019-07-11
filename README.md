@@ -3,6 +3,7 @@
 在cmd中输入以下命令安装
 
     pip install biliget
+    python3 -m pip install biliget
 
 在python环境中，需要这样导入
 
