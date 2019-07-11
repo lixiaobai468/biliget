@@ -2,7 +2,7 @@
 ## 安装
 在cmd中输入以下命令安装
 
-   pip install biliget
+    pip install biliget
 
 在python环境中，需要这样导入
 
