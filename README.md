@@ -288,7 +288,7 @@ pagesize决定返回值的项数，可选，默认值为5 (详见输出值)
 | 方法  | 回调  | 返回类型 |
 | :------------: | :------------: |  :------------: |
 | fans()  | 获取最近值得关注的up主粉丝数以及uid  | list |
-| \__copyright__()  | 版权说明  | print() |
+|__copyright__() | 版权说明  | print() |
 
 ####fans()的返回值
 
@@ -302,27 +302,3 @@ pagesize决定返回值的项数，可选，默认值为5 (详见输出值)
 
 
 
-
-
-
-| follower()  | 用户粉丝数  |  int |
-|  upinfo() | 用户具体信息  | json  |
-| username()  | 用户名  | str  |
-| sex()  |  用户性别 男or女 | str  |
-| face()  | 用户头像链接  | str  |
-| sign()  | 用户个性签名  | str  |
-| level()  | 用户等级  | int  |
-| birthday()  | 用户生日 mm-dd  | str  |
-| badge()  | 用户是否自己的粉丝勋章  | bool  |
-| intr()  | 用户的认证信息  | str  |
-| viptype()  | 用户vip类别 0:无  1:普通VIP 2:年费VIP| int  |
-| vipthemetype()  |  vip主题状态 | bool  |
-| isfollowed()  | 是否可以被直接关注  | bool  |
-| toppic()  |  主页顶部图片url | str  |
-| liveinfo()  | 直播信息汇总  |  json |
-| liveurl()  | 直播间链接  | str  |
-| liveroomid()  |  直播间号 |  int |
-| liveroomcover()  |直播间封面链接   | str  |
-| uservideoinfo()  | 用户视频标签  |  list |
-| usertags()  | 视频页面信息  | json  |
-| newv()  |   用户最新视频id | int  |
